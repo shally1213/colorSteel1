@@ -1,0 +1,17 @@
+<swiper autoplay="true" indicator-dots="true" interval="3000" circular="true" indicator-active-color="white">
+  <swiper-item>
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583049909204&di=a41632dbcee7967d9917b1af988f2a64&imgtype=0&src=http%3A%2F%2Fimg003.hc360.cn%2Fm3%2FM04%2F2E%2F89%2FwKhQ5lR1bU6ERm0QAAAAAO0APZc606.jpg"></image>
+    
+  </swiper-item>
+  <swiper-item>
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583049909225&di=f13482fa10e1f0914aeaad0e2a0b298b&imgtype=0&src=http%3A%2F%2Fimage.qihuiwang.com%2FC3310310%2FD%2F429%2FC36D701AD4E800C04026257D13B92EC6.jpeg"></image>
+    
+  </swiper-item>
+  <swiper-item>
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583049909217&di=8fba227312ded0bd6318ef6216298cc3&imgtype=0&src=http%3A%2F%2Fimg000.hc360.cn%2Fk2%2FM01%2F6C%2F01%2FwKhQxVhwpVWER84jAAAAAKWhoCs253.jpg..300x300.jpg"></image>
+    
+  </swiper-item>
+</swiper>
+
+<view></view>
+
