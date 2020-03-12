@@ -2,8 +2,9 @@
   "pages": [
     "pages/home/index",
     "pages/mine/index",
-    "pages/cart/index",
-    "pages/hypemarket/index"
+    "pages/hypemarket/index",
+    "pages/cart/index"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
