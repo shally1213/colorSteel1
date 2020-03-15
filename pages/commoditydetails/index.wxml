@@ -1,0 +1,36 @@
+<swiper autoplay="true" interval="3000">
+  <swiper-item>
+    <image src="http://s2.hgcang.com/bsimg/ec/public/images/17/d2/17d2f71dec98ed8d1b367d4538d2a6e0.jpg?x-oss-process=style/high"></image>    
+  </swiper-item>
+  <swiper-item>
+    <image src="http://s1.hgcang.com/bsimg/ec/public/images/8f/16/8f16cefa807b0e41eb49f56538d67514.jpg?x-oss-process=style/high"></image>    
+  </swiper-item>
+  <swiper-item>
+    <image src="http://s2.hgcang.com/bsimg/ec/public/images/4b/61/4b613341a0809c68d3d08057531f7571.jpg?x-oss-process=style/high"></image>    
+  </swiper-item>
+  <swiper-item>
+    <image src="http://s1.hgcang.com/bsimg/ec/public/images/b4/18/b41805364b9527cb240082c4fafc74ea.jpg?x-oss-process=style/high"></image>    
+  </swiper-item>
+  <swiper-item>
+    <image src="http://s2.hgcang.com/bsimg/ec/public/images/d9/45/d945bd39997afeb92d29043bd8a860b9.jpg?x-oss-process=style/high"></image>    
+  </swiper-item>
+</swiper>
+<view style="color:grey;">Sanrio Characters 5片装蒸汽眼罩</view>
+<view>
+  <view>价格：<text class="price">￥15</text></view>
+</view>
+<view class="Specifications">
+  <view>规格：</view>
+  <view class="choose">无香</view>
+  <view class="choose">西柚味1</view>
+  <view class="choose">西柚味2</view>  
+  <view class="choose">西柚味3</view>
+</view>
+
+<view style="margin: 0;padding: 0;" class="payNum">
+  <view>购买数量：</view>
+  
+  <span class="reduceDis">-</span>
+  <span class="plus">+</span>
+  <input id="selectedNum" value="1" class="quantity" onkeydown="if(event.keyCode==13)event.keyCode=9" onkeypress="if ((event.keyCode<48 || event.keyCode>57)) event.returnValue=false"/>
+</view>

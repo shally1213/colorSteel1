@@ -1,3 +1,30 @@
-<!--pages/cart/index.wxml-->
-<text>pages/cart/index.wxml</text>
-<view>513132132</view>
+
+
+<view class="onloadPicture">
+  <image class="picture" src="../../assets/picture/notFound.png"></image>
+</view>
+
+<text class="font" style="text-align:center;">购物车空空的</text>
+
+<button class="btn" style="width:150px;" onclick="location.href=''">去购买</button>
+
+<!-- <view class="container">
+  <view class="cartItem" wx:for="{{cartFoodList}}">
+    <view class="left">
+      <view data-idx="{{index}}" bindtap="choose" class="check iconfont {{item.checked?'icon-checked-s':'icon-unchecked-s'}}"></view>
+      <image src="{{item.img}}"></image>
+      <view style="font-size:13px;">{{item.title}}</view>
+      <view>*{{item.count}}</view>
+    </view>
+    <view class="right">
+      <view style="font-size:14px;">￥{{item.count * item.price}}</view>
+    </view>
+  </view>
+</view> -->
+
+
+<!-- <view style="display:none;" class="bottom">
+  <view bindtap="chooseAll" class="checkAll iconfont {{isCheckAll?'icon-checked-s':'icon-unchecked-s'}}"></view>
+  <view style="font-size:14px;">总计：￥{{totalSum}}</view>
+  <view style="font-size:14px;" class="pay">支付</view>
+</view> -->

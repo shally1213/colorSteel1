@@ -1,16 +1,16 @@
 {
   "pages": [
+    "pages/commoditydetails/index",
+    "pages/cart/index",
     "pages/home/index",
     "pages/mine/index",
-    "pages/hypemarket/index",
-    "pages/cart/index"
-    
+    "pages/hypemarket/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#d9232e",
+    "navigationBarTitleText": "名创优品",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [
@@ -20,7 +20,6 @@
         "iconPath": "assets/icon/home.png",
         "selectedIconPath": "assets/icon/home (1).png"
       },
-      
       {
         "text": "商城",
         "pagePath": "pages/hypemarket/index",
@@ -30,6 +29,12 @@
       {
         "text": "购物车",
         "pagePath": "pages/cart/index",
+        "iconPath": "assets/icon/cart.png",
+        "selectedIconPath": "assets/icon/cart (1).png"
+      },
+      {
+        "text": "商品详情",
+        "pagePath": "pages/commoditydetails/index",
         "iconPath": "assets/icon/cart.png",
         "selectedIconPath": "assets/icon/cart (1).png"
       },

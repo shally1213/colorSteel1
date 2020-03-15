@@ -1,1 +1,73 @@
-/* pages/cart/index.wxss */
+.picture{
+  width: 100%;
+  height: 400rpx;
+}
+.font{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.btn{
+  background-color: #d9232e!important;
+  color: #fff;
+}
+/* .cartItem{
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx;
+  border-bottom: 1px dashed #eee
+}
+
+.left{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.left .check{
+  color: skyblue;
+  font-size: 28px;
+}
+
+.left image{
+  width: 90rpx;
+  height: 60rpx;
+  padding: 10rpx;
+}
+
+.right{
+  padding: 10rpx;
+  text-align: center;
+  align-items: center;  
+}
+
+.right view{
+  align-items: center;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 100rpx;
+  width: 100vw;
+  background: #eee;
+}
+
+.bottom .checkAll{
+  color: skyblue;
+  font-size: 28px;
+}
+
+.bottom .pay{
+  background: skyblue;
+  padding: 0 50px;
+  color: white;
+  line-height: 100rpx;
+} */
