@@ -37,11 +37,13 @@
     <input id="selectedNum" value="1" class="quantity" onkeydown="if(event.keyCode==13)event.keyCode=9" onkeypress="if ((event.keyCode<48 || event.keyCode>57)) event.returnValue=false"/>
   </view>  
 </view>
+
+<view style="height:100px;">
+</view>
   
 <view class="bottom">
-  <image src="../../assets/icon/home.png" style="width:25px;height:25px;margin-left:10px;margin-right:10px;margin-bottom:5px;"></image>
-  <image src="../../assets/icon/cart (1).png" style="width:25px;height:25px;margin-right:10px;margin-bottom:5px;"></image>
-  <image src="../../assets/icon/collection.png" style="width:25px;height:25px;margin-right:10px;margin-bottom:5px;">></image>
+  <image src="../../assets/icon/cart (1).png" style="width:25px;height:25px;margin-left:5px;margin-right:10px;margin-bottom:5px;"></image>
+  <image src="../../assets/icon/collection.png" style="width:25px;height:25px;margin-right:10px;margin-bottom:5px;"></image>
   <button class="shopping"style="display: inline-block;width:109px;">立即购买</button>
   <button class="addCart"style="display: inline-block;width:130px;">加入购物车</button>
 </view>
