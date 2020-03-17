@@ -3,8 +3,8 @@ swiper ,swiper image{
   height: 600rpx;
 }
 .choose{
-  border:1px solid rgb(131, 131, 131);
-  width: 100px;
+  border:1px solid rgb(228, 126, 126);
+  width: 120px;
   height:50rpx;
   border-radius:5rpx;
   font-size: 30rpx;
@@ -19,7 +19,7 @@ swiper ,swiper image{
 }
 
 .Specifications{
-  height: 90px;
+  height: 100px;
 }
 
 .reduceDis{
@@ -28,11 +28,11 @@ swiper ,swiper image{
 
 span{
   font-size: 18px;
-  color: #666;
+  color: rgb(228, 126, 126);
   float: left;
   width: 25px;
   height: 25px;
-  border: 1px solid #ddd;
+  border: 1px solid rgb(228, 126, 126);
   cursor: pointer;
   text-align: center;
 }
@@ -46,11 +46,20 @@ input{
   margin: 0 -1px;
   text-align: center;
   border-radius: 0;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: white;
+  border: 1px solid rgb(228, 126, 126);
   vertical-align: middle;
 }
 
-.plus{
+.payNum{
+  height: 60px;
+}
 
+.shopping{
+  color: red;
+}
+
+.addCart{
+  background-color: red;
+  color: white;
 }
