@@ -2,6 +2,7 @@
   "pages": [
     "pages/commoditydetails/index",
     "pages/cart/index",
+    
     "pages/home/index",
     "pages/mine/index",
     "pages/hypemarket/index"
@@ -17,8 +18,8 @@
       {
         "text": "首页",
         "pagePath": "pages/home/index",
-        "iconPath": "assets/icon/home.png",
-        "selectedIconPath": "assets/icon/home (1).png"
+        "iconPath": "assets/icon/home (1).png",
+        "selectedIconPath": "assets/icon/home.png"
       },
       {
         "text": "商城",
@@ -35,8 +36,8 @@
       {
         "text": "商品详情",
         "pagePath": "pages/commoditydetails/index",
-        "iconPath": "assets/icon/cart.png",
-        "selectedIconPath": "assets/icon/cart (1).png"
+        "iconPath": "assets/icon/information(1).png",
+        "selectedIconPath": "assets/icon/information.png"
       },
       {
         "text": "我的",

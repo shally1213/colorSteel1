@@ -13,10 +13,15 @@
   background-color: #d9232e!important;
   color: #fff;
 }
-/* .cartItem{
+
+.container{
+  background-color: rgb(247, 242, 242);
+}
+
+.cartItem{
   display: flex;
   justify-content: space-between;
-  padding: 10rpx;
+  padding: 20rpx;
   border-bottom: 1px dashed #eee
 }
 
@@ -33,8 +38,8 @@
 }
 
 .left image{
-  width: 90rpx;
-  height: 60rpx;
+  width: 100rpx;
+  height: 90rpx;
   padding: 10rpx;
 }
 
@@ -55,19 +60,60 @@
   align-items: center;
   position: fixed;
   bottom: 0;
-  height: 100rpx;
+  height: 70rpx;
   width: 100vw;
   background: #eee;
 }
 
 .bottom .checkAll{
-  color: skyblue;
+  color: rgb(207, 47, 47);
   font-size: 28px;
 }
 
 .bottom .pay{
-  background: skyblue;
+  background: rgb(216, 38, 38);
   padding: 0 50px;
   color: white;
-  line-height: 100rpx;
-} */
+  line-height: 70rpx;
+}
+
+span{
+  font-size: 16px;
+  color: rgb(228, 126, 126);
+  float: left;
+  width: 20px;
+  height: 20.5px;
+  border: 1px solid rgb(228, 126, 126);
+  cursor: pointer;
+}
+
+input{
+  width: 30px;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin: 0 -1px;
+  text-align: center;
+  border-radius: 0;
+  background-color: rgb(247, 242, 242);
+  border: 1px solid rgb(228, 126, 126);
+  vertical-align: middle;
+}
+
+.fee{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(226, 218, 218);
+  margin-top: 10px;
+}
+
+.fee .title{
+  padding: 10rpx;
+  font-size:14px;
+}
+
+.fee .sum{
+  padding: 10rpx;
+  font-size:14px;
+}

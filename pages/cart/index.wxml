@@ -1,30 +1,42 @@
 
-
-<view class="onloadPicture">
-  <image class="picture" src="../../assets/picture/notFound.png"></image>
+<view style="display:none;">
+  <view class="onloadPicture">
+    <image class="picture" src="../../assets/picture/notFound.png"></image>
+  </view>
+  <text class="font" style="text-align:center;">购物车空空的</text>
+  <button class="btn" style="width:150px;" onclick="location.href=''">去购买</button>
 </view>
 
-<text class="font" style="text-align:center;">购物车空空的</text>
+<view class="container">
+  <view class="cartItem">
 
-<button class="btn" style="width:150px;" onclick="location.href=''">去购买</button>
-
-<!-- <view class="container">
-  <view class="cartItem" wx:for="{{cartFoodList}}">
     <view class="left">
-      <view data-idx="{{index}}" bindtap="choose" class="check iconfont {{item.checked?'icon-checked-s':'icon-unchecked-s'}}"></view>
-      <image src="{{item.img}}"></image>
-      <view style="font-size:13px;">{{item.title}}</view>
-      <view>*{{item.count}}</view>
+      <image src="http://s1.hgcang.com/bsimg/ec/public/images/b4/18/b41805364b9527cb240082c4fafc74ea.jpg?x-oss-process=style/high"></image>
+      <view style="font-size:13px;color:grey;">Sanrio Characters 5片装蒸汽眼罩</view>
     </view>
+
     <view class="right">
-      <view style="font-size:14px;">￥{{item.count * item.price}}</view>
+      <view style="font-size:16px;color:rgb(207, 47, 47);">￥15</view> 
+      <view style="margin: 0;padding: 0;" class="payNum">
+        <view >
+          <span class="reduceDis">-</span>        
+          <input value="1" class="quantity" onkeydown="if(event.keyCode==13)event.keyCode=9" onkeypress="if ((event.keyCode<48 || event.keyCode>57)) event.returnValue=false"/>
+          <span class="plus">+</span>
+        </view> 
+      </view> 
     </view>
+
   </view>
-</view> -->
+</view>
 
+<view class="fee">
+  <view class="title">配送费</view>
+  <view class="sum">￥2</view>
+</view>
 
-<!-- <view style="display:none;" class="bottom">
+<view class="bottom">
   <view bindtap="chooseAll" class="checkAll iconfont {{isCheckAll?'icon-checked-s':'icon-unchecked-s'}}"></view>
-  <view style="font-size:14px;">总计：￥{{totalSum}}</view>
+  <view style="font-size:14px;">总计：￥15</view>
   <view style="font-size:14px;" class="pay">支付</view>
-</view> -->
+</view>
+
